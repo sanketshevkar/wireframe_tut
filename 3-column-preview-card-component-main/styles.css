@@ -1,0 +1,81 @@
+body {
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 95%);
+}
+
+.card {
+    border-radius: 10%;
+    display: flex;
+    width: 60%;
+}
+
+.card__sedan {
+    border-radius: 10px 0 0 10px;
+    background: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+
+.card__suv {
+    background: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+
+.card__luxury {
+    border-radius: 0 10px 10px 0;
+    background: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+
+.card__heading {
+    font-size: 2em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.card__info {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card__button {
+   background: hsl(0, 0%, 95%);
+   padding: 1em 2em;
+   border: 0;
+   border-radius: 20px;
+   margin-top: 2em;
+}
+
+.card__button--sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.card__button--suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.card__button--luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 1150px) {
+    .card {
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .card__sedan {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card__luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
