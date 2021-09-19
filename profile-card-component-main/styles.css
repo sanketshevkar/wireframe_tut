@@ -1,0 +1,66 @@
+html {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    background: hsl(185, 75%, 39%);
+}
+.main {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.card {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1em;
+    background: white;
+}
+.card__background--user {
+    display: block;
+    margin: 0 auto;
+    transform: translate(0, -50%);
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.card__background--user > img {
+    border-radius: 50%;
+}
+.card__background--top > img {
+    border-radius: 1em 1em 0 0;
+}
+p {
+    text-align: center;
+}
+.card__username {
+    font-weight: 700;
+    margin: 0;
+}
+.card__userage {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+.card__usercity {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.75em;
+    margin: 0.5em 0;
+}
+.card__userinfo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card__value {
+    font-weight: 700;
+    margin: 0;
+}
+.card__key {
+    color: hsl(0, 0%, 59%);
+    margin: 0.25em 0;
+    font-size: 0.75em;
+}
+.card__userinfobasic {
+    transform: translate(0, -75%)
+}
+.card__bg {
+    margin-bottom: 1em;
+}
