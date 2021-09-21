@@ -1,0 +1,47 @@
+body {
+    font-size: 12px;
+}
+
+.colors > div {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.colors__primary--cddesblue {
+    background: hsl(238, 29%, 16%);
+}
+
+.colors__primary--softred {
+    background: hsl(14, 88%, 65%);
+}
+
+.colors__gradient--softviolet {
+    background: hsl(273, 75%, 66%);
+}
+
+.colors__gradien--softblue {
+    background: hsl(240, 73%, 65%);
+}
+
+.colors__neutral--vdgrayblue {
+    background: hsl(237, 12%, 33%);
+}
+
+.colors__neutral--dgrayblue {
+    background: hsl(240, 6%, 50%);
+}
+
+.colors__divider--lgrayblue {
+    background: hsl(240, 5%, 91%);
+}
+
+.typography__kumbh--400 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.typography__kumbh--700 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
